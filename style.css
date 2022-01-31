@@ -1,0 +1,38 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.section1st {
+    height: 100vh;
+    background-color: rgb(255, 0, 242);
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.left_div {
+    height: 100vh;
+    flex: 1;
+    border: solid white 6px;
+}
+
+.right_div {
+    height: 100vh;
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+}
+
+.f1 {
+    border: solid #fff 5px;
+    flex: 1;
+}
+
+.f2 {
+    flex: 5;
+    border: solid #fff 5px;
+}
